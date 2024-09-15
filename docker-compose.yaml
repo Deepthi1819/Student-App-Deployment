@@ -12,7 +12,7 @@ services:
     # volumes:
     #   - .:/usr/src/app
   mongodb:
-    image: mongo:latest
+    image: registration-image:latest
     ports:
       - '27017:27017'
     volumes:
